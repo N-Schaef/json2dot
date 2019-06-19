@@ -11,7 +11,7 @@ For example will this command
 
 create the following graph
 
-(Image here)
+![example1](https://github.com/N-Schaef/json2dot/raw/master/example1.png "First example")
 
 
 `cat json.json | python3 json2dot.py | dot -Tpng -ojson.png`
