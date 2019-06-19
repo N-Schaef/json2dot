@@ -18,7 +18,7 @@ create the following graph
 
 This command will feed the contents of a json file into the script.
 
-The returned DOT code can of course be combined with all graphviz utilities.
+The returned DOT code can of course be combined with all DOT preprocessors.
 If, for example, a JSON object has many members
 
 `cat json.json | python3 json2dot.py |  unflatten -l 5 | dot -Tpng -ojson.png`
